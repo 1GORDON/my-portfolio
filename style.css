@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    width: 250px;
+    margin: 30px;
+    align-items: center;
+    background-image: url(images/header-shapes.png);
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-size: 40px;
+    color: #172B4D;
+
+}
+
+p{
+    color: #344563;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 300px;
+}
+
+.menu{
+    color: #6070FF;
+    width: 18px;
+    height: 12px;
+}
+
+.my-logo{
+    color: #6070FF;
+    width: 76px;
+    height: 20px;
+}
