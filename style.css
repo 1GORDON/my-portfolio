@@ -16,7 +16,7 @@ p{
     color: #344563;
 }
 
-.navbar{
+nav{
     display: flex;
     padding: 1rem;
     justify-content: space-between;
@@ -45,10 +45,14 @@ ul{
     width: 15%;
 }
 
+li {
+  margin-right: 10px;
+}
+
 .container{
     display: flex;
+    width: 375px;
     margin: 10% auto;
-    width: 25%;
     padding: 10px;
     position: relative;
     background-image: url(images/header-shapes.png);
