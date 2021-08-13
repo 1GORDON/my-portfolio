@@ -5,18 +5,11 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: white;
-    width: 250px;
-    margin: 30px;
-    align-items: center;
-    background-image: url(images/header-shapes.png);
-    background-repeat: no-repeat;
 }
 
 h1{
     font-size: 40px;
     color: #172B4D;
-
 }
 
 p{
@@ -25,9 +18,10 @@ p{
 
 .navbar{
     display: flex;
-    justify-content: space-between;
     padding: 1rem;
-    width: 300px;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
 }
 
 .menu{
@@ -40,4 +34,24 @@ p{
     color: #6070FF;
     width: 76px;
     height: 20px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    justify-content: space-between;
+    width: 15%;
+}
+
+.container{
+    display: flex;
+    margin: 10% auto;
+    width: 25%;
+    padding: 10px;
+    position: relative;
+    background-image: url(images/header-shapes.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
