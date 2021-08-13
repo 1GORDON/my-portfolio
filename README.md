@@ -7,8 +7,8 @@ Setting up a personal portfolio
 
 ## Built With
 
-- html and css
-- linters
+- HTML and CSS
+- Linters
 
 ## Getting Started
 
