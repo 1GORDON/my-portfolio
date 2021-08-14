@@ -3,7 +3,11 @@
 
 # My Portfolio
 
-Setting up a personal portfolio
+Setting up a personal portfolio and added the following features
+
+- created the About myself page
+- created multiple cards
+- implemented responsiveness
 
 ## Built With
 
