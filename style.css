@@ -152,10 +152,20 @@ button {
   border-radius: 8px;
   color: rgba(57, 109, 242, 1);
   background-color: transparent;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-size: 17px;
   font-weight: 500;
   margin-top: 24px;
+}
+
+button:hover {
+  background-color: #6070ff;
+  color: white;
+  box-shadow: 0 8px 16px rgb(64, 83, 252, 0.24);
+}
+
+button:active {
+  background-color: #2230d2;
 }
 
 .tag {
