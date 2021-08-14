@@ -1,0 +1,27 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "main": "index.js",
+  "dependencies": {
+    "hint": "^6.1.4",
+    "stylelint-scss": "^3.20.1",
+    "stylelint": "^13.13.1",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-config-standard": "^21.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1GORDON/my-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1GORDON/my-portfolio/issues"
+  },
+  "homepage": "https://github.com/1GORDON/my-portfolio#readme"
+}
