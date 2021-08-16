@@ -82,8 +82,7 @@ nav {
 }
 
 .list {
-  display: flex;
-  flex-direction: row;
+  float: left;
   padding: 0;
 }
 
@@ -169,6 +168,7 @@ button:active {
 }
 
 .tag {
+  float: left;
   background-color: #ebebff;
   border-radius: 8px;
   color: #6070ff;
