@@ -183,16 +183,20 @@ button:active {
   width: 100%;
   background-image: url("./images/contact-me.png");
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-color: #fff;
 }
 
 .my-form-container {
-  padding: 50% 20px;
+  height: 100%;
   background-image: url("./images/contacts-shapes-bg.png");
+  background-color: #616efa;
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-position: right;
+  background-size: contain;
+  border-top-left-radius: 50%;
+  padding: 120px 20px 50px 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .text-white {
@@ -208,17 +212,19 @@ button:active {
 }
 
 .my-form-container > h1 {
-  font-size: 40px;
+  font-size: 45px;
+  margin-top: 140px;
 }
 
 .my-form-container > p {
   font-size: 20px;
   color: #ebebff;
-  padding-top: 13px;
+  padding-top: 40px;
+  line-height: 45px;
 }
 
 form {
-  margin-top: 50px;
+  margin-top: 30%;
 }
 
 .form-btn {
@@ -244,4 +250,26 @@ form {
 
 .height-input {
   height: 48px;
+}
+
+.font-poppins {
+  font-family: Poppins, sans-serif;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.divider {
+  display: flex;
+  justify-content: center;
+  margin-top: -5px;
+  background-color: #616efa;
+}
+
+#black {
+  width: 134px;
+  height: 5px;
+  background-color: #0d151e;
+  border-radius: 10px;
+  margin: 20px 0;
 }
