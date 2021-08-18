@@ -10,6 +10,7 @@ body {
   padding: 0;
   background-color: #e5e5e5;
   font-family: Poppins, sans-serif;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -102,6 +103,7 @@ nav {
   background-size: 100% 100%;
   background-color: white;
   border-bottom-left-radius: 90px;
+  overflow: hidden;
 }
 
 .coder {
@@ -156,6 +158,7 @@ button {
   font-size: 17px;
   font-weight: 500;
   margin-top: 24px;
+  cursor: pointer;
 }
 
 button:hover {
@@ -173,4 +176,102 @@ button:active {
   border-radius: 8px;
   color: #6070ff;
   padding: 4px 12px;
+}
+
+/* Contact Form Style */
+.my-form {
+  height: auto;
+  width: 100%;
+  background-image: url("./images/contact-me.png");
+  background-repeat: no-repeat;
+  background-color: #fff;
+}
+
+.my-form-container {
+  height: 100%;
+  background-image: url("./images/contacts-shapes-bg.png");
+  background-color: #616efa;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  border-top-left-radius: 50%;
+  padding: 120px 20px 50px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.background-white {
+  background-color: #fff;
+}
+
+.my-form-container > h1 {
+  font-size: 45px;
+  margin-top: 140px;
+}
+
+.my-form-container > p {
+  font-size: 20px;
+  color: #ebebff;
+  padding-top: 40px;
+  line-height: 45px;
+}
+
+form {
+  margin-top: 30%;
+}
+
+.form-btn {
+  width: 140px;
+  height: 48px;
+  margin-top: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.space {
+  margin: 22px 0;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+}
+
+.pad-x-y {
+  padding: 10px 10px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.height-input {
+  height: 48px;
+}
+
+.font-poppins {
+  font-family: Poppins, sans-serif;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.divider {
+  display: flex;
+  justify-content: center;
+  margin-top: -5px;
+  background-color: #616efa;
+}
+
+#black {
+  width: 134px;
+  height: 5px;
+  background-color: #0d151e;
+  border-radius: 10px;
+  margin: 20px 0;
 }
