@@ -158,6 +158,7 @@ button {
   font-size: 17px;
   font-weight: 500;
   margin-top: 24px;
+  cursor: pointer;
 }
 
 button:hover {
@@ -232,6 +233,7 @@ form {
   height: 48px;
   margin-top: 8px;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .space {
