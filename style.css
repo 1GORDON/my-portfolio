@@ -3,7 +3,6 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  /* outline: solid 1px red; */
 }
 
 body {
@@ -90,13 +89,8 @@ nav {
   display: none;
 }
 
-.site-nav {
-  /* padding: 0 20px; */
-}
-
 .main-section {
   position: relative;
-  /* width: 100vw; */
   padding: 118px 0;
   border-bottom-left-radius: 90px;
 }
@@ -250,6 +244,7 @@ form {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  margin-top: 87px;
 }
 
 form input,
@@ -280,10 +275,6 @@ form textarea {
   color: #ebebff;
   padding-top: 12px;
   line-height: 28px;
-}
-
-form {
-  margin-top: 87px;
 }
 
 .form-btn {
@@ -343,7 +334,6 @@ form {
     font-size: 20px;
     line-height: 28px;
     width: 100%;
-    /* max-width: 920px; */
     height: 100%;
     margin: 0 auto;
     background-image: url("./images/bg-page1.png");
@@ -369,6 +359,13 @@ form {
     align-self: center;
   }
 
+  .coder-li a {
+    text-decoration: none;
+    color: #344563;
+    font-size: 30px;
+    line-height: 24px;
+  }
+
   .site-nav li a {
     margin-left: 40px;
     text-decoration: none;
@@ -382,10 +379,6 @@ form {
   .main-section {
     align-self: center;
     padding: 359px 260px 254px 260px;
-  }
-
-  .main-text {
-    line-height: 60px;
   }
 
   .content {
@@ -410,7 +403,7 @@ form {
   }
 
   .card-11 {
-    background-color: #ffffff;
+    background-color: #fff;
     width: 1156px;
     height: 496px;
     border: 1px solid #dfe1e6;
@@ -460,7 +453,7 @@ form {
 
   .no-about {
     display: flex;
-    background-color: #ffffff;
+    background-color: #fff;
     border-top-left-radius: 0;
     border-top-right-radius: 90px;
     flex-direction: row;
@@ -486,17 +479,17 @@ form {
     margin-left: -30%;
   }
 
+  .lang {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
   .lang-container {
     display: flex;
   }
 
   .lang-container .lang {
     padding: 24px;
-  }
-
-  .lang {
-    flex-direction: column;
-    align-items: flex-start;
   }
 
   #about-link {
@@ -517,13 +510,6 @@ form {
 
   .main-section .content {
     font-size: 20px;
-  }
-
-  .coder-li a {
-    text-decoration: none;
-    color: #344563;
-    font-size: 30px;
-    line-height: 24px;
   }
 
   .coder {
