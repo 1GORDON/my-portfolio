@@ -430,6 +430,12 @@ form textarea {
     display: flex;
     justify-content: flex-start;
     margin-left: 5%;
+    transition: all 3s ease-in-out;
+  }
+
+  .card-img1:hover {
+    transform: scale(0.5);
+    cursor: pointer;
   }
 
   .for-cards {
@@ -442,6 +448,14 @@ form textarea {
 
   .buttons .list {
     gap: 8px;
+  }
+
+  button {
+    transition: all 2s ease-in-out;
+  }
+
+  button:hover {
+    background-color: #858585;
   }
 
   .tonic {
