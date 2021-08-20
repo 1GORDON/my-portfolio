@@ -325,6 +325,12 @@ form textarea {
   margin: 20px 0;
 }
 
+.form-instructions:hover {
+  cursor: pointer;
+  transform: translate(20px, 0);
+  transition: all 1s ease-in-out;
+}
+
 @media screen and (min-width: 992px) {
   body {
     background-color: white;
@@ -345,8 +351,11 @@ form textarea {
   }
 
   .my-logo {
-    width: 76px;
+    width: 86%;
     height: 20px;
+    padding: 2px;
+    transform: rotate(360deg);
+    transition: all 2s ease-in-out;
   }
 
   .menu {
