@@ -394,11 +394,6 @@ form textarea {
     margin: 24px 0;
   }
 
-  .active {
-    background-color: #2230d2;
-    color: white;
-  }
-
   .card {
     display: none;
   }
