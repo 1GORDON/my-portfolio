@@ -366,6 +366,11 @@ form textarea {
     line-height: 24px;
   }
 
+  .coder-img {
+    width: 40px;
+    height: 22px;
+  }
+
   .coder-li .coder-img {
     width: 15px;
     height: 18px;
@@ -494,11 +499,6 @@ form textarea {
 
   #about-link {
     color: #7f8cff;
-  }
-
-  .coder-img {
-    width: 40px;
-    height: 22px;
   }
 
   .main-text {
