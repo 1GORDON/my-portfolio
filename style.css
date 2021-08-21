@@ -362,8 +362,13 @@ form textarea {
   .coder-li a {
     text-decoration: none;
     color: #344563;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 24px;
+  }
+
+  .coder-li .coder-img {
+    width: 15px;
+    height: 18px;
   }
 
   .site-nav li a {
@@ -378,7 +383,7 @@ form textarea {
 
   .main-section {
     align-self: center;
-    padding: 359px 260px 254px 260px;
+    padding: 370px 220px 234px 220px;
   }
 
   .content {
