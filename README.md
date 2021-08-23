@@ -2,8 +2,6 @@
 
 # My Profile Desktop Version(Application Deploy)
 
-[Link to my Portfolio](https://1gordon.github.io/my-portfolio/)
-
 Setting up a personal portfolio and added the following features
 
 - Changed the images for the Desktop version
@@ -14,6 +12,10 @@ Setting up a personal portfolio and added the following features
 
 - HTML and CSS
 - Linters
+
+## Live Demo
+
+[Link to my Portfolio](https://1gordon.github.io/my-portfolio/)
 
 ## Getting Started
 
