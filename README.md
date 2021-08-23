@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# My Profile Desktop Version
+# My Profile Desktop Version(Application Deploy)
 
 Setting up a personal portfolio and added the following features
 
@@ -12,6 +12,10 @@ Setting up a personal portfolio and added the following features
 
 - HTML and CSS
 - Linters
+
+## Live Demo
+
+[Link to my Portfolio](https://1gordon.github.io/my-portfolio/)
 
 ## Getting Started
 
