@@ -1,8 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# My Profile Desktop Version (Application Deploy)
-
-[Link to my Portfolio](https://1gordon.github.io/my-portfolio/)
+# My Profile Desktop Version
 
 Setting up a personal portfolio and added the following features
 
