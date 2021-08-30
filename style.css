@@ -36,6 +36,35 @@ li {
   padding: 0;
 }
 
+.heading1 {
+  background-color: #6070ff;
+}
+
+.main-section-menu {
+  padding: 0;
+  margin: 0;
+}
+
+.menu-items {
+  list-style-type: none;
+  margin: 0;
+  padding: 96px 554px 106px 28px;
+}
+
+.menu-items li {
+  margin: 0;
+  padding: 20px 0;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-style: semibold;
+  font-size: 32px;
+  line-height: 44px;
+  line-height: 92%;
+}
+
 .white-bg {
   background-color: white;
 }
