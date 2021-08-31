@@ -1,16 +1,16 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# My Profile Desktop Version(Application Deploy)
+# My Mobile Menu
 
 Setting up a personal portfolio and added the following features
 
-- Changed the images for the Desktop version
-- implemented responsiveness
-- Changed the card layout for desktop view
+- Activated the onclick events
+- Added the popup screen
+- Added blur effect on the the popup
 
 ## Built With
 
-- HTML and CSS
+- HTML, CSS and Javascript
 - Linters
 
 ## Live Demo
