@@ -48,7 +48,6 @@ li {
   left: 0;
   margin: 0;
   z-index: 1;
-  overflow-y: none;
 }
 
 .view {
@@ -82,7 +81,6 @@ li {
 .menu-items li a {
   text-decoration: none;
   color: white;
-  font-style: semibold;
   font-weight: bold;
   font-size: 32px;
   line-height: 44px;
