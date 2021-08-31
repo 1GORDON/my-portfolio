@@ -36,6 +36,43 @@ li {
   padding: 0;
 }
 
+.heading1 {
+  position: fixed;
+  background-color: #6070ff;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  margin: 0;
+  opacity: 0.9;
+}
+
+.menu-items {
+  list-style-type: none;
+  margin: 0;
+}
+
+.hamberger {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  width: 100%;
+  padding: 30px;
+}
+
+.menu-options {
+  padding: 30px 28px;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-style: semibold;
+  font-size: 32px;
+  line-height: 44px;
+  line-height: 92%;
+}
+
 .white-bg {
   background-color: white;
 }
