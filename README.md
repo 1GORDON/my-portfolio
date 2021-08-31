@@ -1,18 +1,17 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Mobile Menu
+# My Profile Desktop Version(Application Deploy)
 
-Setting up a mobile menu and added the following features
+Setting up a personal portfolio and added the following features
 
-- Added on click events
-- Added the cancel icon
-- Added the menu to the markup
+- Changed the images for the Desktop version
+- implemented responsiveness
+- Changed the card layout for desktop view
 
 ## Built With
 
 - HTML and CSS
 - Linters
-- Javascript
 
 ## Live Demo
 
