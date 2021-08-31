@@ -10,24 +10,24 @@
 <body>
     <section id="drop-down" class="heading1">
         <div>
-            <img onclick="myFunction()" class ="vector" src="./images/vector.svg" alt="cancel">
+            <a href="#"><img onclick="myFunction1()" class ="menu1" src="images/Iconx.png" alt="cancel"></a>
         </div>
         <div>
             <ul class="menu-items">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Portfolio</a></li>
+                <li><a onclick="myFunction1()" href="#Portfolio">Portfolio</a></li>
+                <li><a onclick="myFunction1()" href="#About">About</a></li>
+                <li><a onclick="myFunction1()" href="#Contact">Contact</a></li>
             </ul>
         </div>
     </section>
-    <section class="heading">
+    <section id="firstPage" class="heading">
         <header>
             <nav class="site-nav">
                 <a href="#">
                     <img class="my-logo" src="images/my-logo.png" alt="logo">
                 </a>
                 <a href="#">
-                    <img class="menu" src="images/mymenu.png" alt="union">
+                    <img onclick="myFunction()" class="menu" src="images/mymenu.png" alt="union">
                 </a>
                 <ul>
                     <li><a href="#">Portolio</a></li>
@@ -56,7 +56,7 @@
         </section>
     </section>
 <section class="projects">
-    <section class="card">
+    <section id="Portfolio" class="card">
         <section class="profile-picture for-cards">
             <img class="card-img" src="images/snapshot-profile-1.png" alt="Snapshot-profile">
             <img class="card-img1" src="images/card-img1.png" alt="snapshot-profile">
@@ -288,7 +288,7 @@
         </section>
     </section>
 </section>
-    <section class="white-bg btl-rad">
+    <section id="About" class="white-bg btl-rad">
         <div class="about">
             <h1 class="main-text">About <br> Myself</h1>
             <p class="content">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me..</p>
@@ -333,7 +333,7 @@
         </div>
     </section>
     <!--  Desktop About --> 
-    <section class="no-about">    
+    <section id="About"  class="no-about">    
         <div class="btl-rad about">
             <div class="about about-desktop">
                 <br>
@@ -380,7 +380,7 @@
             </div>
         </div>
     </section>
-    <section class="my-form">
+    <section id="Contact" class="my-form">
         <div class="my-form-container">
             <h1 class="text-white text-center">Contact me</h1>
             <p class="text-center form-instructions">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
@@ -411,5 +411,6 @@
             <div id='black'></div>
         </div>
     </section>
+    <script src="script.js"></script>
   </body>
 </html>
