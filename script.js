@@ -167,7 +167,7 @@ butCloseModal.addEventListener('click', closeModal);
 
 const name = document.getElementById("name");
 const email = document.getElementById("email");
-// const form = document.querySelector("form");
+const form = document.querySelector("form");
 const errorElement = document.getElementById("error");
 
 form.addEventListener('submit', (e) => {
