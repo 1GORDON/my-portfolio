@@ -165,10 +165,12 @@ document.querySelectorAll('.see-project-button').forEach((element) => {
 // closes the modal when clicked
 butCloseModal.addEventListener('click', closeModal);
 
-const name = document.getElementById("name");
+// Form-Validation
+const myName = document.getElementById("name");
 const email = document.getElementById("email");
-// const form = document.querySelector("form");
+const form = document.querySelector("form");
 const errorElement = document.getElementById("error");
+const message = document.getElementById("message");
 
 form.addEventListener('submit', (e) => {
   if (email.value !== email.value.toLowerCase()){
@@ -177,3 +179,18 @@ form.addEventListener('submit', (e) => {
     errorElement.textContent = 'Invalid email, Please use lowercase';
   }
 });
+
+//Local starge
+form.addEventListener('input', () => {
+  const object = {
+    myname: myName.value,
+    myemail: email.value,
+    mymessage: message.value
+  }
+  localStorage.setItem('object', JSON.stringify(object))
+});
+
+const fetchData = JSON.parse(localStorage.getItem('object'));
+myName.value = fetchData.myname;
+email.value = fetchData.myemail;
+message.value = fetchData.mymessage;
