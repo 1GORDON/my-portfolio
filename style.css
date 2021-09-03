@@ -232,16 +232,12 @@ nav {
   padding: 5%;
 }
 
-.card-img1 {
-  display: none;
+.card-img {
+  display: flex;
 }
 
 .card .card-img {
   width: 100%;
-}
-
-.card-11 {
-  display: none;
 }
 
 .no-about {
@@ -605,15 +601,6 @@ form textarea {
   }
 
   .card {
-    display: flex;
-  }
-
-  .cards-11 {
-    display: flex;
-  }
-
-  .card-11 {
-    background-color: #fff;
     width: 1156px;
     height: 496px;
     border: 1px solid #dfe1e6;
@@ -621,6 +608,7 @@ form textarea {
     margin: 142px auto;
     display: flex;
     justify-content: space-evenly;
+    padding: 0%;
   }
 
   .card-img {

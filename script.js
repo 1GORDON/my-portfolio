@@ -11,7 +11,6 @@ const myFunction1 = () => {
 const modalContainer = document.querySelector('.modal-container');
 const butCloseModal = document.querySelector('.modal-top-close-icon');
 const projectParentContainer = document.querySelector('.projects');
-const deviceWidth = window.innerWidth;
 
 const headingSection = document.querySelector('.heading1');
 const mainSection = document.querySelector('.main-section');
@@ -108,13 +107,18 @@ let projectCard = '';
 // iterate through the project
 projects.forEach((project) => {
   projectCard += `
-  <section id="Portfolio" class="${deviceWidth > 992 ? 'card-11' : 'card'}">
+  <section id="Portfolio" class="card">
     <section class="for-cards ${project.direction}">
       <img
-        class="${deviceWidth > 992 ? 'card-img1' : 'card-img'}"
-        src="${deviceWidth > 992 ? project.image.desktopUrl : project.image.mobileUrl}"
+        class="card-img hide-on-lg"
+        src="${project.image.mobileUrl}"
         alt="${project.image.alt}"
       />
+      <img
+      class="card-img1 hide-on-sm show-on-lg"
+      src="${project.image.desktopUrl}"
+      alt="${project.image.alt}"
+    />
     </section>
     <section class="tonic for-cards">
       <h1>${project.title}</h1>
