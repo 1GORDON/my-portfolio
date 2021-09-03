@@ -54,8 +54,8 @@ const projects = [
       alt: 'card 1 image'
     },
     technologies: ['html', 'css', 'javascript'],
-    sourceCodeUrl: '#',
-    liveDemoUrl: '#',
+    sourceCodeUrl: 'https://github.com/1GORDON/my-portfolio',
+    liveDemoUrl: 'https://1gordon.github.io/my-portfolio/',
     direction: 'normal'
   },
   {
@@ -68,8 +68,8 @@ const projects = [
       alt: 'card 2 image'
     },
     technologies: ['html', 'css', 'javascript'],
-    sourceCodeUrl: '#',
-    liveDemoUrl: '#',
+    sourceCodeUrl: 'https://github.com/1GORDON/my-portfolio',
+    liveDemoUrl: 'https://1gordon.github.io/my-portfolio/',
     direction: 'switch'
   },
   {
@@ -82,8 +82,8 @@ const projects = [
       alt: 'card 3 image'
     },
     technologies: ['html', 'css', 'javascript'],
-    sourceCodeUrl: '#',
-    liveDemoUrl: '#',
+    sourceCodeUrl: 'https://github.com/1GORDON/my-portfolio',
+    liveDemoUrl: 'https://1gordon.github.io/my-portfolio/',
     direction: 'normal'
   },
   {
@@ -96,8 +96,8 @@ const projects = [
       alt: 'card 4 image'
     },
     technologies: ['html', 'css', 'javascript'],
-    sourceCodeUrl: '#',
-    liveDemoUrl: '#',
+    sourceCodeUrl: 'https://github.com/1GORDON/my-portfolio',
+    liveDemoUrl: 'https://1gordon.github.io/my-portfolio/',
     direction: 'switch'
   }
 ];

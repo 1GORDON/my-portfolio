@@ -28,11 +28,15 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-**Author1**
+**Tinyefuza Gordon**
 
 - GitHub: [@1GORDON](https://github.com/1GORDON)
 - Twitter: [@GTinyefuza](https://twitter.com/Tinyefuza)
 - LinkedIn: [LinkedIn](www.linkedin.com/in/tinyefuza-gordon-935747213)
+
+**Ngu Kingsely**
+
+- GitHub: [@Kingstalux](https://github.com/Kingstalux)
 
 ## 🤝 Contributing
 
