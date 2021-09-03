@@ -851,4 +851,8 @@ form textarea {
     grid-template-columns: 20% 15% 30%;
     gap: 10px;
   }
+
+  .modal-top-close-icon {
+    cursor: pointer;
+  }
 }
