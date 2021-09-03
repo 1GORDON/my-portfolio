@@ -1,12 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# My Mobile Menu
+# My Mobile and Desktop Popup
 
 Setting up a personal portfolio and added the following features
 
-- Activated the onclick events
-- Added the popup screen
-- Added blur effect on the the popup
+- Created an object to store properties
+- Added mobile and desktop popup screens
+- Added blur background on the desktop popup
 
 ## Built With
 
@@ -28,11 +28,15 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-**Author1**
+**Tinyefuza Gordon**
 
 - GitHub: [@1GORDON](https://github.com/1GORDON)
 - Twitter: [@GTinyefuza](https://twitter.com/Tinyefuza)
 - LinkedIn: [LinkedIn](www.linkedin.com/in/tinyefuza-gordon-935747213)
+
+**Ngu Kingsely**
+
+- GitHub: [@Kingstalux](https://github.com/Kingstalux)
 
 ## 🤝 Contributing
 
