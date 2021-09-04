@@ -7,6 +7,7 @@ Setting up a personal portfolio and added the following features
 - Created an object to store properties
 - Added mobile and desktop popup screens
 - Added blur background on the desktop popup
+- Added browser local storage
 
 ## Built With
 
