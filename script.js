@@ -182,15 +182,15 @@ form.addEventListener('submit', (e) => {
 
 //Local starge
 form.addEventListener('input', () => {
-  const object = {
+  const inputs = {
     myname: myName.value,
     myemail: email.value,
     mymessage: message.value
   }
-  localStorage.setItem('object', JSON.stringify(object))
+  localStorage.setItem('inputs', JSON.stringify(inputs))
 });
 
-const fetchData = JSON.parse(localStorage.getItem('object'));
+const fetchData = JSON.parse(localStorage.getItem('inputs'));
 myName.value = fetchData.myname;
 email.value = fetchData.myemail;
 message.value = fetchData.mymessage;
