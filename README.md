@@ -22,6 +22,16 @@ Setting up a personal portfolio and added the following features
 
 To get a local copy up and running follow these simple example steps.
 
+## My Other Projects
+Awesome-Books
+- [Link to my Awesome-Books Source code](https://github.com/1GORDON/Awesome-books)
+- [Link to Awesome-Books Live Link](https://1gordon.github.io/Awesome-books/)
+
+To-Do-List
+- [Link to To-Do-List Source code](https://github.com/1GORDON/To-Do-List)
+- [Link to To-Do-List Live Link](https://1gordon.github.io/To-Do-List/dist/)
+
+
 ### Usage
 
 - Clone this repo to your local machine
