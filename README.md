@@ -9,11 +9,10 @@ Setting up a personal portfolio and added the following features
 - Added blur background on the desktop popup
 - Added browser local storage
 
-![screenshot](./images/Banner.png)
-![screenshot](./images/Screenshot-projects1.png)
-![screenshot](./images/Screenshot-projects2.png)
-![screenshot](./images/Screenshot-About.png) 
-![screenshot](./images/Screenshot-contact.png)
+![screenshot](./images/Capture1.JPG)
+![screenshot](./images/Capture2.JPG)
+![screenshot](./images/Capture3.JPG)
+![screenshot](./images/Capture4.JPG)
 
 ## Built With
 
