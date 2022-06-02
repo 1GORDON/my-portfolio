@@ -416,6 +416,21 @@ button:disabled {
   border-radius: 8px;
 }
 
+.resume-button {
+  text-transform: none;
+  text-decoration: none;
+  overflow: visible;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.resume-button:hover {
+  color: #fff;
+  background: #6070ff;
+  animation: scale-up2 0.8s ease both;
+  cursor: pointer;
+}
+
 /* Project Detail Modal Section */
 .modal-container {
   display: none;
