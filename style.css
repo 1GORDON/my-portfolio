@@ -354,7 +354,7 @@ button:disabled {
   flex-direction: column;
 
   /* flex-basis: 55%; */
-  margin: 0px 12px;
+  margin: 0 12px;
   padding: 24px;
 }
 
@@ -368,7 +368,7 @@ button:disabled {
   font-size: 40px;
   font-weight: bold;
   line-height: 52px;
-  
+
   /* color: "#091e42"; */
   margin: 15px 0;
 }
