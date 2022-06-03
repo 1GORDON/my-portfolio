@@ -135,6 +135,7 @@ body {
   border-radius: 8px;
   border-color: #396df2;
   padding: 10px 12px;
+
   /* box-shadow: inset 0 0 0 20px #fff, inset 0 0 0 20px #fff, 0px 0px 0px rgba(64, 83, 252, 0.24); */
 }
 
@@ -351,7 +352,8 @@ button:disabled {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  flex-basis: 55%;
+
+  /* flex-basis: 55%; */
   margin: 0px 12px;
   padding: 24px;
 }
@@ -366,6 +368,7 @@ button:disabled {
   font-size: 40px;
   font-weight: bold;
   line-height: 52px;
+  
   /* color: "#091e42"; */
   margin: 15px 0;
 }
