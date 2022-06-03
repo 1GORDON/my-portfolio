@@ -51,7 +51,7 @@ const data = [
     project_title: 'Book an Appointment',
     project_info_title: 'Microverse',
     counter_image: './images/Counter.svg',
-    project_info_text: ['Front-End', 'Back-End', '2022'],
+    project_info_text: ['Back-End', '2022'],
     project_description: 'I built this project with a team of four for the Final Capstone Project while at Microverse. It is based on an app to book an appointment with a doctor. We followed the given design of the website, but we personalized the content. This project uses two apps, one is a backend which is a rails APi and a React frontend.',
     tags: ['React', 'Rails', 'Redux', 'javascript'],
     live_version: 'https://frontend-doctor-api1.netlify.app/',
