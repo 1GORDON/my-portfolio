@@ -557,7 +557,7 @@ button:disabled {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color:#344563;
+  color: #344563;
 }
 
 .modal-body {
@@ -999,7 +999,7 @@ button:disabled {
   .project-info-item {
     display: flex;
     justify-content: space-between;
-    color:#344563;
+    color: #344563;
   }
 
   .project-description {
