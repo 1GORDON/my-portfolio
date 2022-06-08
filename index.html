@@ -1,360 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="style.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>my-portfolio</title>
-  </head>
-  <body>
-    <section id="drop-down" class="heading1">
-      <div>
-        <a href="#"><img onclick="myFunction1()" class="menu1" src="images/vector.svg" alt="cancel"/></a>
-      </div>
-      <div>
-        <ul class="menu-items">
-          <li><a onclick="myFunction1()" href="#Portfolio">Portfolio</a></li>
-          <li><a onclick="myFunction1()" href="#About">About</a></li>
-          <li><a onclick="myFunction1()" href="#Contact">Contact</a></li>
-        </ul>
-      </div>
-    </section>
-    <section id="firstPage" class="heading">
-     <!-- header section -->
-      <header>
-        <nav class="site-nav">
-          <a href="#">
-            <img class="my-logo" src="images/my-logo.png" alt="logo" />
-          </a>
-          <a href="#">
-            <img
-              onclick="myFunction()"
-              class="menu"
-              src="images/mymenu.png"
-              alt="union"
-            />
-          </a>
-          <ul>
-            <li><a href="#">Portolio</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-453WGFZPM0"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-453WGFZPM0');
+    </script>
+    <title>Gordon Portfolio</title>
+</head>
+<body>
+    <header class="toolbar toolbar2">
+        <nav class="menu">
+            <a href="#" class="logo-wrapper">
+                <p>Gordon</p>
+            </a>
+
+            <!-- Mobile Version Menu -->
+            <button class="menu-btn" type="button">
+                <img class="menu-icon" src="./images/Union.png" alt="">
+            </button>
+
+            <!-- Desktop Version Menu --> 
+            <ul class="menu-items">
+                <li class="menu-item portfolio">
+                    <a href="#portfolio">Portfolio</a>
+                </li>
+                <li class="menu-item about">
+                    <a href="#about">About</a>
+                </li>
+                <li class="menu-item contact">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
         </nav>
-      </header>
+    </header>
 
-      <!-- headline section -->
-      <section class="main-section">
-        <br />
-        <h1 class="main-text">
-          I’m Godanah <br />
-          Glad to see you!
-        </h1>
-        <p class="content">
-          I’m a software developer! I can help you build a product , feature or
-          website Look through some of my work and experience! If you like what
-          you see and have a project you need coded, don’t hestiate to contact
-          me.
-        </p>
-        <br />
-        <p class="p-page1">LET'S CONNECT</p>
-        <br />
-        <div class="contact">
-          <ul class="list">
-            <li>
-              <a href="#"><img src="images/vector-1.png" alt="vector1" /></a>
-            </li>
-            <li>
-              <a href="#"><img src="images/vector-2.png" alt="vector2" /></a>
-            </li>
-            <li>
-              <a href="#"><img src="images/vector-3.png" alt="vector3" /></a>
-            </li>
-            <li>
-              <a href="#"><img src="images/vector-4.png" alt="vector4" /></a>
-            </li>
-            <li>
-              <a href="#"><img src="images/vector-5.png" alt="vector5" /></a>
-            </li>
-          </ul>
-        </div>
-      </section>
-    </section>
+    <main class="content-body">
+        <section class="banner">
 
-    <!-- popup modal -->
-    <div class="modal-container">
-        <div class="modal">
-            <div class="modal-top flex space-between">
-                <h4 class="modal-top-title">Tonic</h4>
-                <img class="modal-top-close-icon" src="./images/vector.svg" alt="close icon">
+            <div class="banner-text">
+                <h1>I’m Gordon<br>
+                    A Full Stack Web Developer!
+                </h1>
+                <p>I'm a certified Full-stack Web Developer who enjoys building interactive interfaces with Javascript, Ruby, Ruby on Rails, and React.<br>I’m also a Technical Support Engineer, a mentor at Microverse, and a freelance full-stack developer building solutions for medium-sized businesses. I'm open to front-end and back-end remote opportunities with digital-product teams. <br> I also possess a degree in Software Engineering. <br> I'm also enhancing my skills in other technologies like Typescript, Express, and Node.js.
+                </p>
+                <div class="social-media-container">
+                    <h2 class="social-title">LET’S CONNECT</h2>
+                    <ul class="social-media-icons">
+                        <li><a href="https://twitter.com/TinyefuzaG"><img src="./images/twitter.svg" alt="" class="social-icon"></a></li>
+                        <li><a href="https://www.linkedin.com/in/tinyefuza-gordon/"><img src="./images/Linkedin-icon.svg" alt="" class="social-icon"></a></li>
+                        <li><a href="https://github.com/1GORDON"><img src="./images/github.svg" alt="" class="social-icon"></a></li>
+                        <li><a href="https://angel.co/u/tinyefuza-gordon"><img src="./images/angellist.svg" alt="" class="social-icon"></a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="modal-middle flex">
-                <ul class="flex">
-                    <li class="bold">CANOPY</li>
-                    <li><img src="./images/counter-1.png" alt="#"></li>
-                    <li>Back End Dev</li>
-                    <li><img src="./images/counter-1.png" alt="#"></li>
-                    <li>2015</li>
+        </section>
+
+        <Section class="works" id="portfolio">
+            <h1>example project</h1>
+        </Section>
+
+        <section class="modal-container">
+            <ul class="works-modal">
+                <li>
+                    <div class="project-header">
+                        <div class="modal-title-container">
+                            <h1 class="project-title">example</h1>
+                            <img class="modal-close-button" src="./images/modal-close-icon.svg" alt="modal close button">
+                        </div>
+                        <div class="project-info">
+                            <h2 class="project-info-title">example</h2>
+                            <img src="#" alt="counter">
+                            <p class="project-info-item">example</p>
+                            <img src="#" alt="counter">
+                            <p class="project-info-item">example</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="project-img-wrapper">
+                    <img src="#" alt="" class="Project-img">
+                </li>
+                <li class="modal-body">
+                    <p class="project-description">
+                    </p>
+                    <ul class="tags">
+                        <li class="tag-item">example</li>
+                        <li class="tag-item">example</li>
+                        <li class="tag-item">example</li>
+                    </ul>
+                    <div class="divider"></div>
+                    <div class="action-container">
+                        <button class="action-btn see-live" type="button">See live <img src="./images/See-live-icon.svg" alt="see live icon"></button>
+                        <button class="action-btn see-source" type="button">See source <img src="./images/See-source-Icon.svg" alt="see live icon"></button>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- About section -->
+        <section class="about-section" id="about">
+            <div class="about-wrapper">
+                <div class="top-container">
+                    <h2>About <br>
+                       Myself
+                    </h2>
+                    <p>Hello I’m a software developer! I can help you build a product , 
+                       feature or website Look through some of my work and experience! 
+                       If you like what you see and have a project you need coded, 
+                       don’t hesitate to contact me.
+                    </p>
+                    <div class="social-media-container">
+                       <a class="social-title" href="#">LET’S CONNECT</a>
+                       <ul class="social-media-icons">
+                           <li><a href="https://twitter.com/TinyefuzaG"><img src="./images/twitter.svg" alt="" class="social-icon"></a></li>
+                           <li><a href="https://www.linkedin.com/in/tinyefuza-gordon/"><img src="./images/Linkedin-icon.svg" alt="" class="social-icon"></a></li>
+                           <li><a href="https://github.com/1GORDON"><img src="./images/github.svg" alt="" class="social-icon"></a></li>
+                           <li><a href="https://angel.co/u/tinyefuza-gordon"><img src="./images/angellist.svg" alt="" class="social-icon"></a></li>
+                       </ul>
+                    </div>
+                    <a href="https://docs.google.com/document/d/1637NBc1zlU76cnPQTKaPj1llCvpM8nBilCkicIC6IyI/edit" class="action-btn about-btn resume-button">Get my resume</a>
+                </div>
+   
+                <!-- Skills -->
+                <ul class="skills-container">
+                    <li class="languages skill-item">
+                        <div class="skill-list-tab">
+                            <p class="skill-title">Languages</p>
+                            <button class="skill-btn" type="button"><i class="chevron down icon"></i></button>
+                        </div>
+                        <ul class="skill-list">
+                            <li class="list-item">
+                                <img src="./images/Ellipse-JS.svg" alt="" class="language-icon">
+                                <p class="language-text">JavaScript</p>
+                            </li>
+                            <li class="list-item">
+                                <img src="./images/Ellipse-Html.svg" alt="" class="language-icon">
+                                <p class="language-text">HTML</p>
+                            </li>
+                            <li class="list-item">
+                                <img src="./images/Ellipse-Css.svg" alt="" class="language-icon">
+                                <p class="language-text">CSS</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="frameworks skill-item">
+                       <div class="skill-list-tab">
+                           <p class="skill-title">Frameworks</p>
+                           <button class="skill-btn" type="button"><i class="chevron right icon"></i></button>
+                       </div>
+                    </li>
+                    <li class="skills skill-item">
+                       <div class="skill-list-tab">
+                           <p class="skill-title">Skills</p>
+                           <button class="skill-btn" type="button"><i class="chevron right icon"></i></button>
+                       </div>
+                    </li>
                 </ul>
             </div>
-            <div class="modal-bottom">
-                <div class="modal-img-conatiner">
-                    <img class="hide-on-lg" src="./images/snapshot-profile-1.png" alt="modal image">
-                    <img class="show-on-lg hide-on-sm" src="./images/desktop-main-img.png" alt="modal image desktop">
+        </section>
+
+        <!-- Contact section -->
+        <footer class="contact-section" id="contact">
+            <form class="contact-form" action="https://formspree.io/f/xjvjprwk" method="post">
+                <div class="form-group-text">
+                    <h2 class="form-title">Contact me</h2>
+                    <p class="form-description">If you have an application you are interested in developing, 
+                        a feature that you need built or a project that needs coding. 
+                        I’d love to help with it 
+                    </p>
                 </div>
-                <div class="wrapper">
-                    <div class="modal-para-conatiner">
-                        <p class="hide-on-lg">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent
-                        </p>
-                        <p class="show-on-lg hide-on-sm">
-                          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea </p>
-                    </div>
 
-                    <div class="modal-button-conatiner">
-                        <div class="modal-technologies">
-                            <ul class="list grid-list">
-                                <li><div class="tag">html</div></li>
-                                <li><div class="tag">css</div></li>
-                                <li><div class="tag">javascript</div></li>
-                                <li class="hide-on-sm show-on-lg"><div class="tag">github</div></li>
-                                <li class="hide-on-sm show-on-lg"><div class="tag">ruby</div></li>
-                                <li class="hide-on-sm show-on-lg"><div class="tag">Bootstraps</div></li>
-                            </ul>
-                        </div>
-                        <div class="modal-buttons flex align-center justify-center">
-                            <a href="https://1gordon.github.io/my-portfolio/
-                            " class="button-style modal-btn">See Live <img class="button-icons .button-icons-color" src="./images/see-live-icon.svg" alt="see live icon"></a>
-                            <a href="https://github.com/1GORDON/my-portfolio
-                            " class="button-style modal-btn">See Source<img class="button-icons .button-icons-color" src="./images/github.svg" alt="github icon"></a>
-                        </div>
+                <div class="form-group-actions">
+                    <Input type="text" placeholder="Name" name="name" id="name" maxlength="30" Required>
+                    <input type="email" placeholder="natajayanj14@gmail.com"  name="email" id="email" Required>
+                    <div class="textarea-container">
+                        <textarea name="message" id="message" placeholder="Write your message here" cols="30" rows="10" maxlength="500" Required></textarea>
                     </div>
+                    <p class="error-message"></p>
+                    <button class="submit-btn" type="submit">Get It Touch</button>
                 </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- project section -->
-    <section class="projects"></section>
-
-    <!-- about section -->
-    <section id="About" class="white-bg btl-rad">
-      <div class="about">
-        <h1 class="main-text">
-          About <br />
-          Myself
-        </h1>
-        <p class="content">
-          Hello I’m a software developer! I can help you build a product ,
-          feature or website Look through some of my work and experience! If you
-          like what you see and have a project you need coded, don’t hestiate to
-          contact me..
-        </p>
-        <br />
-        <p>LET'S CONNECT</p>
-        <br />
-        <div class="contact">
-          <ul class="list">
-            <li>
-              <a href="#"><img src="images/vector-1.png" alt="vector1" /></a>
-            </li>
-            <li>
-              <a href="#"><img src="images/vector-2.png" alt="vector2" /></a>
-            </li>
-            <li>
-              <a href="#"><img src="images/vector-3.png" alt="vector3" /></a>
-            </li>
-            <li>
-              <a href="#"><img src="images/vector-4.png" alt="vector4" /></a>
-            </li>
-            <li>
-              <a href="#"><img src="images/vector-5.png" alt="vector5" /></a>
-            </li>
-          </ul>
-          <button>Get My Resume</button>
-        </div>
-      </div>
-    </section>
-    <section class="white-bg">
-      <div class="languages">
-        <ul class="coder">
-          <li>
-            <a href="#"><img src="images/languages.png" alt="languages" /></a>
-          </li>
-          <li>
-            <ul class="lang-container">
-              <li class="lang">
-                <a href="#"
-                  ><img
-                    class="lang-logo"
-                    src="images/javasript-logo.png"
-                    alt="javascript"
-                /></a>
-                <p class="upper">Javascript</p>
-              </li>
-              <li class="lang">
-                <a href="#"
-                  ><img class="lang-logo" src="images/html-logo.png" alt="html"
-                /></a>
-                <p class="upper">Html</p>
-              </li>
-              <li class="lang">
-                <a href="#"
-                  ><img class="lang-logo" src="images/css-logo.png" alt="css"
-                /></a>
-                <p class="upper">css</p>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a href="#"><img src="images/frameworks.png" alt="frameworks" /></a>
-          </li>
-          <li>
-            <a href="#"><img src="images/skills.png" alt="skills" /></a>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <!--  Desktop About -->
-    <section class="no-about">
-      <div class="btl-rad about">
-        <div class="about about-desktop">
-          <br />
-          <h1 class="main-text">
-            About <br />
-            Myself
-          </h1>
-          <p class="content">
-            Hello I’m a software developer! I can help you build a product ,
-            feature or website Look through some of my work and experience! If
-            you like what you see and have a project you need coded, don’t
-            hestiate to contact me..
-          </p>
-          <br />
-          <p id="about-link">LET'S CONNECT</p>
-          <br />
-          <div class="contact">
-            <ul class="list">
-              <li>
-                <a href="#"><img src="images/vector-1.png" alt="vector1" /></a>
-              </li>
-              <li>
-                <a href="#"><img src="images/vector-2.png" alt="vector2" /></a>
-              </li>
-              <li>
-                <a href="#"><img src="images/vector-3.png" alt="vector3" /></a>
-              </li>
-              <li>
-                <a href="#"><img src="images/vector-4.png" alt="vector4" /></a>
-              </li>
-              <li>
-                <a href="#"><img src="images/vector-5.png" alt="vector5" /></a>
-              </li>
-            </ul>
-            <button>Get My Resume</button>
-          </div>
-        </div>
-      </div>
-      <div class="language-container">
-        <div class="languages">
-          <ul class="coder">
-            <li class="coder-li">
-              <a href="#">Languages</a
-              ><img
-                class="coder-img"
-                src="images/chevron.png"
-                alt="languages"
-              />
-            </li>
-            <li>
-              <ul class="lang-container">
-                <li class="lang">
-                  <a href="#"
-                    ><img
-                      class="lang-logo"
-                      src="images/javasript-logo.png"
-                      alt="javascript"
-                  /></a>
-                  <p class="upper">Javascript</p>
-                </li>
-                <li class="lang">
-                  <a href="#"
-                    ><img
-                      class="lang-logo"
-                      src="images/html-logo.png"
-                      alt="html"
-                  /></a>
-                  <p class="upper">Html</p>
-                </li>
-                <li class="lang">
-                  <a href="#"
-                    ><img class="lang-logo" src="images/css-logo.png" alt="css"
-                  /></a>
-                  <p class="upper">css</p>
-                </li>
-              </ul>
-            </li>
-            <li class="coder-li">
-              <a href="#">Frameworks</a
-              ><img
-                class="coder-img"
-                src="images/chevron.png"
-                alt="frameworks"
-              />
-            </li>
-            <li class="coder-li">
-              <a href="#">Skills</a
-              ><img class="coder-img" src="images/chevron.png" alt="skills" />
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    <section id="Contact" class="my-form">
-      <div class="my-form-container">
-        <h1 class="text-white text-center">Contact me</h1>
-        <p class="text-center form-instructions">
-          If you have an application you are interested in developing, a feature
-          that you need built or a project that needs coding. I’d love to help
-          with it
-        </p>
-        <form action="https://formspree.io/f/xvodvroe" method="post">
-          <input
-            type="text"
-            id="name"
-            required
-            placeholder="Yeremias"
-            maxlength="30"
-            class="full-width font-poppins height-input pad-x-y"
-          />
-          <input
-            type="email"
-            id="email"
-            required
-            placeholder="natajayanj14@gmail.com"
-            class="full-width font-poppins height-input pad-x-y"
-          />
-          <textarea
-            name="message"
-            id="message"
-            required
-            cols="30"
-            rows="10"
-            maxlength="500"
-            placeholder="Write your message here"
-            class="full-width font-poppins pad-x-y"
-          ></textarea>
-          <div id="error"></div>
-          <button id="insertData" type="submit" class="form-btn background-white">
-            Get In Touch
-          </button>
-        </form>
-      </div>
-      <div class="divider">
-        <div id="black"></div>
-      </div>
-    </section>
-    <script src="script.js"></script>
-  </body>
+            </form>
+        </footer>
+    </main>
+    <script src="./script.js"></script>
+</body>
 </html>
