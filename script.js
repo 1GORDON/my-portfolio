@@ -81,7 +81,7 @@ const data = [
   },
   {
     project_img: './images/space.png',
-    project_title: 'Spacex Traveler\'s Hub',
+    project_title: 'Spacex Traveler\'s',
     project_info_title: 'Microverse',
     counter_image: './images/Counter.svg',
     project_info_text: ['Front-End', '2021'],
