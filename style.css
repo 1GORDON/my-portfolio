@@ -309,7 +309,7 @@ button:disabled {
 
 .project-img-wrapper {
   width: 100%;
-  height: 220px;
+  height: 180px;
 }
 
 .Project-img {
@@ -395,7 +395,7 @@ button:disabled {
 .project-description {
   width: 100%;
   height: 76px;
-  margin: 30px 0;
+  margin: 10px 0;
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
@@ -432,7 +432,6 @@ button:disabled {
   justify-content: flex-start;
   width: 100%;
   height: 72px;
-  margin-top: 12px;
   padding: 0;
 }
 
@@ -940,7 +939,7 @@ button:disabled {
   }
 
   .project-description {
-    margin: 36px 0;
+    margin: 75px 0;
     font-size: 16px;
   }
 
