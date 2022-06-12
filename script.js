@@ -48,7 +48,7 @@ window.addEventListener('resize', () => {
 const data = [
   {
     project_img: './images/gordon.png',
-    project_title: 'Book an Appointment',
+    project_title: 'Book Appointment',
     project_info_title: 'Microverse',
     counter_image: './images/Counter.svg',
     project_info_text: ['Back-End', '2022'],
