@@ -114,7 +114,7 @@ const data = [
   },
   {
     project_img: './images/capstone1.png',
-    project_title: 'Summer Concert Series',
+    project_title: 'Summer Concert',
     project_info_title: 'Microverse',
     counter_image: './images/Counter.svg',
     project_info_text: ['Front-End', '2021'],
