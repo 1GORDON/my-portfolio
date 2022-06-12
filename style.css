@@ -343,10 +343,6 @@ button:disabled {
   height: 75px;
   padding: 0;
   font-size: 40px;
-  /* line-height: 5px; */
-  /* flex: 0.5; */
-  /* flex-direction: row; */
-  /* flex-wrap: nowrap; */
 }
 
 .project-title {
