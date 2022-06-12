@@ -304,6 +304,8 @@ button:disabled {
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
+  /* align-content: stretch; */
+  /* flex-wrap: wrap; */
 }
 
 .project-img-wrapper {
@@ -403,7 +405,6 @@ button:disabled {
   width: 280px;
   height: 24px;
   list-style: none;
-  /* flex-wrap: wrap; */
 }
 
 .tag-item {
