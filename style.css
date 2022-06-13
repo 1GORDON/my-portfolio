@@ -336,6 +336,7 @@ button:disabled {
   padding: 0;
   margin: 0;
   flex: 1;
+  flex-basis: 10%;
 }
 
 .project-header {
