@@ -287,6 +287,8 @@ button:disabled {
   align-self: stretch;
   padding: 114px 24px;
   background: #f8f8f8;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .project-card {
@@ -302,11 +304,12 @@ button:disabled {
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
+  overflow: hidden;
 }
 
 .project-img-wrapper {
   width: 100%;
-  height: 220px;
+  height: 180px;
 }
 
 .Project-img {
@@ -332,12 +335,15 @@ button:disabled {
   height: 288px;
   padding: 0;
   margin: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
 }
 
 .project-header {
   width: 100%;
-  height: 80px;
+  height: 75px;
   padding: 0;
+  font-size: 40px;
 }
 
 .project-title {
@@ -386,21 +392,24 @@ button:disabled {
 .project-description {
   width: 100%;
   height: 76px;
-  margin: 12px 0;
+  margin: 10px 0;
   font-style: normal;
   font-weight: normal;
-  font-size: 15px;
+  font-size: 13px;
   line-height: 24px;
   color: #344563;
+  flex: 2;
 }
 
 .tags {
   display: flex;
   justify-content: space-between;
   padding: 0;
-  width: 203px;
+  width: 280px;
   height: 24px;
   list-style: none;
+  margin: 5px 0;
+  flex: 0.5;
 }
 
 .tag-item {
@@ -420,7 +429,6 @@ button:disabled {
   justify-content: flex-start;
   width: 100%;
   height: 72px;
-  margin-top: 12px;
   padding: 0;
 }
 
@@ -442,6 +450,7 @@ button:disabled {
   background-color: white;
   border: 1px solid #6070ff;
   border-radius: 8px;
+  margin-bottom: -30px;
 }
 
 .resume-button {
@@ -471,6 +480,7 @@ button:disabled {
   background: #c1c7d0;
   z-index: 1;
   animation: slide-in 0.8s ease-in-out both;
+  overflow: auto;
 }
 
 .works-modal {
@@ -485,6 +495,7 @@ button:disabled {
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
+  margin: 80px 0;
 }
 
 .works-modal .project-header {
@@ -517,6 +528,7 @@ button:disabled {
 .modal-body .action-container {
   justify-content: space-between;
   padding: 0 5px;
+  margin: 5px 0;
 }
 
 .modal-body .action-btn {
@@ -924,7 +936,7 @@ button:disabled {
   }
 
   .project-description {
-    margin: 24px 0;
+    margin: 75px 0;
     font-size: 16px;
   }
 
@@ -943,7 +955,7 @@ button:disabled {
     max-width: 1156px;
     height: 1080px;
     padding: 16px 24px;
-    margin: 20px 0;
+    margin: 80px 0;
   }
 
   .works-modal .project-img-wrapper {

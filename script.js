@@ -48,7 +48,7 @@ window.addEventListener('resize', () => {
 const data = [
   {
     project_img: './images/gordon.png',
-    project_title: 'Book an Appointment',
+    project_title: 'Book Appointment',
     project_info_title: 'Microverse',
     counter_image: './images/Counter.svg',
     project_info_text: ['Back-End', '2022'],
@@ -81,7 +81,7 @@ const data = [
   },
   {
     project_img: './images/space.png',
-    project_title: 'Spacex Traveler\'s Hub',
+    project_title: 'Spacex Traveler\'s',
     project_info_title: 'Microverse',
     counter_image: './images/Counter.svg',
     project_info_text: ['Front-End', '2021'],
@@ -114,7 +114,7 @@ const data = [
   },
   {
     project_img: './images/capstone1.png',
-    project_title: 'Summer Concert Series',
+    project_title: 'Summer Concert',
     project_info_title: 'Microverse',
     counter_image: './images/Counter.svg',
     project_info_text: ['Front-End', '2021'],
