@@ -408,7 +408,7 @@ button:disabled {
   height: 24px;
   list-style: none;
   margin: 5px 0;
-  flex: 0.5
+  flex: 0.5;
 }
 
 .tag-item {
@@ -974,8 +974,8 @@ button:disabled {
 
   .modal-body .tags {
     justify-content: flex-start;
-    flex-wrap: wrap
-  } 
+    flex-wrap: wrap;
+  }
 
   .modal-body .tags .tag-item {
     margin: 0 5px;
